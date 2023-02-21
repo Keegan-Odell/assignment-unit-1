@@ -1,7 +1,8 @@
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
-ls
+ls - this lists the files in the current directory
+pwd - this lists what directory you are currently working in
 
 # 2 - What is the command for changing directories?
 cd
@@ -22,10 +23,10 @@ touch "name of file"
 2.38.1
 
 # 8 - Why would you run the command 'git status'?
-it lets you see what changes have been staged 
+it lets you see what changes have been staged and if you are ahead of your origin branch on github
 
 # 9 - What does the command 'git add .' do?
 adds all files that were modifed to the staging area
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
-git commit
+git push origin main
